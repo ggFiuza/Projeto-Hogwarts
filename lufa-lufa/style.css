@@ -1,0 +1,42 @@
+
+body{
+
+    background-color: #201f27;
+    color: yellow;
+}
+
+.comeco{
+
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.corpo-texto{
+
+    margin-left: 100px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+
+.imagem-abcorpo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container-imagens{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagens{
+
+    width: 300px;
+    margin: 10px;
+}
