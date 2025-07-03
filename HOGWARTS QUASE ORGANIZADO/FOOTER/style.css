@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #00001b;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #00001b;
+}
+
+.caixa {
+  background-color: #1E1E1E;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#conteudo-footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: solid rgb(255, 255, 255) 3px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.rodapeconteiner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logos {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: auto 70px;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+.rights{
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+  margin: auto 780px;
+}
+#hoglogo{
+  height: 75px;
+  width: 250px;
+  padding: 10px;
+}
+#casas{
+  margin-bottom: 10px;
+}
