@@ -45,7 +45,7 @@
 
     <div class="container">
 
-        <h1 class="titulo">MATRICULA:</h1>
+        <h1 class="titulop">MATRÍCULA:</h1>
         <form class="borda">
 
             <h1 class="titulo">Informações do Aluno</h1>
@@ -168,20 +168,20 @@
                     <div class="checkbox-groupitem">
 
                         <input class="tamanhoinput" type="checkbox" value="manha">
-                        <p class="texto alinhar">Coruja</p>
+                        <p class="texto alinhar textop">Coruja</p>
 
                     </div>
 
                     <div class="checkbox-groupitem">
 
                         <input class="tamanhoinput" type="checkbox" value="manha">
-                        <p class="texto alinhar">Espelho comunicador</p>
+                        <p class="texto alinhar textop">Espelho comunicador</p>
 
                     </div>
                     <div class="checkbox-groupitem">
 
                         <input class="tamanhoinput" type="checkbox" value="manha">
-                        <p class="texto alinhar">Carta tradicional</p>
+                        <p class="texto alinhar textop">Carta tradicional</p>
 
                     </div>
 
@@ -195,6 +195,14 @@
 
                     <input required type="text" id="nomep">
                     <label for="end">Nome do responsável legal</label>
+
+                </div>
+                <br>
+
+                <div class="grupo-nome">
+
+                    <input required type="text" id="nomep">
+                    <label for="end">Email</label>
 
                 </div>
 
@@ -222,16 +230,6 @@
                 </select>
 
                 <br>
-                <br>
-
-                <div class="grupo-nome">
-
-                    <input required type="text" id="nomep">
-                    <label for="end">Email</label>
-
-                </div>
-
-
 
                 <h1 class="texto">Possui Sangue Bruxo?</h1>
 
@@ -239,15 +237,15 @@
 
                     <div class="checkbox-groupitem">
 
-                        <input class="tamanhoinput" type="checkbox" value="manha">
-                        <p class="texto alinhar">Sim</p>
+                        <input class="tamanhoinput" type="radio" name="manha" value="sim">
+                        <p class="texto alinhar textop">Sim</p>
 
                     </div>
 
                     <div class="checkbox-groupitem">
 
-                        <input class="tamanhoinput" type="checkbox" value="manha">
-                        <p class="texto alinhar">Não</p>
+                        <input class="tamanhoinput" type="radio" name="manha" value="não">
+                        <p class="texto alinhar textop">Não</p>
 
                     </div>
 
@@ -255,7 +253,7 @@
 
                 </div>
 
-                <h1 class="titulo">Detlhes da Preparação</h1>
+                <h1 class="titulo">Detalhes da Preparação</h1>
 
                 <h1 class="texto">Já possui varinha?</h1>
 
@@ -263,15 +261,15 @@
 
                     <div class="checkbox-groupitem">
 
-                        <input class="tamanhoinput" type="radio" value="sim">
-                        <p class="texto alinhar">Sim</p>
+                        <input class="tamanhoinput" type="radio" name="manha" value="sim">
+                        <p class="texto alinhar textop">Sim</p>
 
                     </div>
 
                     <div class="checkbox-groupitem">
 
-                        <input class="tamanhoinput" type="radio" value="sim">
-                        <p class="texto alinhar">Não</p>
+                        <input class="tamanhoinput" type="radio" name="manha" value="sim">
+                        <p class="texto alinhar textop">Não</p>
 
                     </div>
 
@@ -295,15 +293,15 @@
 
                     <div class="checkbox-groupitem">
 
-                        <input class="tamanhoinput" type="radio" value="sim">
-                        <p class="texto alinhar">Sim</p>
+                        <input class="tamanhoinput" type="radio" name="manha" value="sim">
+                        <p class="texto alinhar textop">Sim</p>
 
                     </div>
 
                     <div class="checkbox-groupitem">
 
-                        <input class="tamanhoinput" type="radio" value="sim">
-                        <p class="texto alinhar">Não</p>
+                        <input class="tamanhoinput" type="radio" name="manha" value="sim">
+                        <p class="texto alinhar textop">Não</p>
 
                     </div>
 
@@ -313,81 +311,181 @@
 
                 <h1 class="texto">Possui alguma necessidade especial ou adaptação mágica necessária?</h1>
 
-                <div class="checkbox-groupitem">
+                <div class="form-box">
 
-                    <input class="tamanhoinput" type="text" >
+                    <div class="checkbox-groupitem">
+
+                        <textarea rows="10" cols="50"></textarea>
+
+                    </div>
+
+
+                    <h1 class="titulo">Escolhas e Preferências:</h1>
+
+                    <h1 class="texto">Matérias pelas quais você está mais ansioso(a):</h1>
+
+                    <select name="" id="">
+
+                        <option value="Nato">Poções</option>
+                        <option value="Natu">Feitiços</option>
+                        <option value="Natu">Trato das Criaturas Mágicas</option>
+                        <option value="Natu">Defesa Contra as Artes das Trevas</option>
+                        <option value="Natu">Transfiguração</option>
+                        <option value="Natu">Herbologia</option>
+                        <option value="Natu">Adivinhação</option>
+                        <option value="Natu">Astronomia</option>
+
+
+                    </select>
+
+                    <h1 class="texto">Tem alguma casa de Hogwarts com a qual mais se identifica?</h1>
+
+                    <select name="" id="">
+
+                        <option value="Nato">Grifinória</option>
+                        <option value="Natu">Sonserina</option>
+                        <option value="Natu">Corvinal</option>
+                        <option value="Natu">Lufa-Lufa</option>
+                        <option value="Natu">Transfiguração</option>
+                        <option value="Natu">Não sei, confio no Chapéu Seletor!</option>
+
+                    </select>
+
+                    <h1 class="texto">Tem alguma habilidade mágica já demonstrada? Conte para nós!</h1>
+                    <div class="checkbox-groupitem">
+
+                        <textarea rows="10" cols="50"></textarea>
+
+                    </div>
+
+                    <h1 class="titulo">Confirmação</h1>
+
+                    <div class="checkbox-group">
+
+                        <div class="checkbox-groupitem">
+
+                            <input class="tamanhoinput" type="checkbox" value="sim">
+                            <p class="texto alinhar textop"> Declaro que todas as informações foram preenchidas
+                                corretamente
+                                e com honestidade.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="checkbox-group">
+
+                        <div class="checkbox-groupitem">
+
+                            <input class="tamanhoinput" type="checkbox" value="sim">
+                            <p class="texto alinhar textop">Autorizo o uso de feitiços de proteção durante a jornada
+                                escolar.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="checkbox-group">
+
+                        <div class="checkbox-groupitem">
+
+                            <input class="tamanhoinput" type="checkbox" value="sim">
+                            <p class="texto alinhar textop"> Aceito os termos do Regimento Interno de Hogwarts.</p>
+
+                        </div>
+                        
+
+                    </div>
+                    
+                    <br>
+
+                    <button type="submit" class="botao-enviar">Enviar Matrícula</button>
+                    
+                    <br>
+
+
 
                 </div>
 
-                <h1 class="titulo">Escolhas e Preferências:</h1>
+            </div>
 
-                <h1 class="texto">Matérias pelas quais você está mais ansioso(a):</h1>
+        </form>
 
-                <select name="" id="">
+        <footer>
+            <div id="conteudo-footer">
+                <div class="logos">
 
-                    <option value="Nato">Poções</option>
-                    <option value="Natu">Feitiços</option>
-                    <option value="Natu">Trato das Criaturas Mágicas</option>
-                    <option value="Natu">Defesa Contra as Artes das Trevas</option>
-                    <option value="Natu">Transfiguração</option>
-                    <option value="Natu">Herbologia</option>
-                    <option value="Natu">Adivinhação</option>
-                    <option value="Natu">Astronomia</option>
+                    <a href="#" id="logo1">
+                        <img src="img-redes/facebook.png" alt="facebook">
+                    </a>
 
-            
-                </select>
+                    <a href="#" id="logo2">
+                        <img src="img-redes/instagram.png" alt="instagram">
+                    </a>
 
-                <h1 class="texto">Tem alguma casa de Hogwarts com a qual mais se identifica?</h1>
+                    <a href="#" id="logo3">
+                        <img src="img-redes/twitter.png" alt="twitter">
+                    </a>
 
-                <select name="" id="">
+                    <a href="#" id="logo4">
+                        <img src="img-redes/youtube.png" alt="youtube">
+                    </a>
 
-                    <option value="Nato">Grifinória</option>
-                    <option value="Natu">Sonserina</option>
-                    <option value="Natu">Corvinal</option>
-                    <option value="Natu">Lufa-Lufa</option>
-                    <option value="Natu">Transfiguração</option>
-                    <option value="Natu">Não sei, confio no Chapéu Seletor!</option>
-                  
-                </select>
+                </div>
+                <div class="rodapeconteiner">
 
-                <h1 class="texto">Tem alguma habilidade mágica já demonstrada? Conte para nós!</h1>
-                <div class="checkbox-groupitem">
+                    <h3>Inicio</h3>
 
-                    <input class="tamanhoinput" type="text" >
+                    <h3>Alunos Destaque</h3>
+
+                    <h3>Noticías</h3>
 
                 </div>
 
-                <h1 class="titulo">Confirmação</h1>
+                <div class="rodapeconteiner" id="casas">
 
-                <div class="checkbox-groupitem">
+                    <h3>Casas</h3>
 
-                    <input class="tamanhoinput" type="radio" value="sim">
-                    <p class="texto alinhar"> Declaro que todas as informações foram preenchidas corretamente e com honestidade.</p>
+                    <a href="#">Corvinal</a>
 
-                </div>
+                    <a href="#">Griffinoria</a>
 
-                <div class="checkbox-groupitem">
+                    <a href="#">Lufa-Lufa</a>
 
-                    <input class="tamanhoinput" type="radio" value="sim">
-                    <p class="texto alinhar">Autorizo o uso de feitiços de proteção durante a jornada escolar.
-                    </p>
+                    <a href="#">Sonserina</a>
 
                 </div>
 
-                <div class="checkbox-groupitem">
+                <div class="rodapeconteiner">
 
-                    <input class="tamanhoinput" type="radio" value="sim">
-                    <p class="texto alinhar"> Aceito os termos do Regimento Interno de Hogwarts.
-</p>
+
+
+                    <h3>Quem Somos?</h3>
+
+                    <a href="#">História da instituição</a>
+
+                    <a href="#">FAQ</a>
+
+                    <a href="#">Contato</a>
 
                 </div>
 
+                <div class="rodapeconteiner">
+                    <h3>Desenvolvedores</h3>
+                    <a href="#">
+                        <img id="hoglogo" src="Hogwarts logo.png" alt="logo hogwarts">
+                    </a>
+                </div>
 
             </div>
 
     </div>
 
-    </form>
+    <div class="rights">
+        <p>Todos os direitos reservados TeraTeam Co. ©</p>
+    </div>
+
+    </footer>
 
 
 
