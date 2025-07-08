@@ -24,3 +24,5 @@ Explore a Nova...: Preto: 302f2f - Amarelo: 4a402f
 Descubra o Mundo: Preto: 110a15 - Roxo: 3a2c49
 Escolhas Mensais: Preto: 171a1e - Azul: 364758
 Rodape: 00001b
+
+https://www.mediafire.com/folder/b33c1jjdfxguc/All+pages
