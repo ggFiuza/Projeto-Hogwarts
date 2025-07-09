@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=WDXL+Lubrifont+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=WDXL+Lubrifont+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IM+Fell+English+SC&family=WDXL+Lubrifont+TC&display=swap');
+h1 {
+    font-family: "Cinzel Decorative", serif;
+}
+  
+h3{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+  
+p {
+    font-family: "EB Garamond", serif;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00001b;
+    line-height: 1.6;
+    color: #ffffff;
+}
+.topo{    
+    display: flex;
+    justify-content: space-between;
+    background-color: #00001b;
+    height: 110px;
+    border-bottom: 1px #515151 solid;
+}
+#titulo{
+    margin-left: 67px;
+}
+#links{
+    width: 145px;
+    margin: 37px 35px 20px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#barraPesquisa{
+    background-color:#1a1a2a;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+    height: 35px;
+    margin: auto 30px;
+}
+  
+#textoBusca{
+    float:left;
+    color: #FFFFFF;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+#base{
+    background-color: #00001b;
+    color: #FFFFFF;
+    border-bottom: 1px solid #515151;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #00001b;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    float: none;
+}
+  
+li a{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img-inicio{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+.texto-inicio{
+    margin: 0px 250px;
+    text-align: justify;
+    font-size: 22px;
+}
+.abas{
+    display: block;
+    margin-top: 100px; 
+    margin-bottom: 50px;
+}
+.abas h5{
+    margin: 0;
+}
+.abas img{
+    height: 150px;
+    object-fit: cover;
+}
+#abas-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+#abas-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+  footer {
+    background-color: #00001b;
+    padding-top: 60px;
+  }
+  
+  .caixa {
+    background-color: #1E1E1E;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #conteudo-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .rodapeconteiner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logos {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: auto 70px;
+  }
+  
+  a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .rights {
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    margin: auto 780px;
+  }
+  
+  #hoglogo {
+    height: 75px;
+    width: 250px;
+    padding: 10px;
+  }
+  
+  #casas {
+    margin-bottom: 10px;
+  }
+  
