@@ -1,6 +1,10 @@
-# Tema: Site da ‘escola’ Hogwarts
+# Tema
 
-# Grupo: Gabriel Mendes, Luiz Fernando, Guilherme Fiuza, João Marcelo, Miguel
+Site da ‘escola’ Hogwarts
+
+# Grupo
+
+Gabriel Mendes, Luiz Fernando, Guilherme Fiuza, João Marcelo, Miguel
 
 # Projeto-Hogwarts
 
