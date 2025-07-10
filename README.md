@@ -6,6 +6,10 @@ Site da ‘escola’ Hogwarts
 
 Gabriel Mendes, Luiz Fernando, Guilherme Fiuza, João Marcelo, Miguel
 
+# Atualizações
+
+As paginas das casas foram enviadas pelo aluno Gabriel Mendes tanto o HTML e o CSS, contudo, os arquivos foram enviados pelo Guilherme Fiuza.
+
 # Projeto-Hogwarts
 
 Estrutura principal de páginas:
