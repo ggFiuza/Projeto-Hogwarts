@@ -1,3 +1,7 @@
+# Tema: Site da ‘escola’ Hogwarts
+
+# Grupo: Gabriel Mendes, Luiz Fernando, Guilherme Fiuza, João Marcelo, Miguel
+
 # Projeto-Hogwarts
 
 Estrutura principal de páginas:
@@ -12,7 +16,7 @@ Estrutura principal de páginas:
 -Página dos desenvolvedores
 
 
-Cores
+# Cores
 
 
 Cor Cabeçalho:00001b Azul Escuro
@@ -26,7 +30,3 @@ Explore a Nova...: Preto: 302f2f - Amarelo: 4a402f
 Descubra o Mundo: Preto: 110a15 - Roxo: 3a2c49
 Escolhas Mensais: Preto: 171a1e - Azul: 364758
 Rodape: 00001b
-
-Tema: Site da ‘escola’ Hogwarts
-
-Grupo: Gabriel Mendes, Luiz Fernando, Guilherme Fiuza, João Marcelo, Miguel
