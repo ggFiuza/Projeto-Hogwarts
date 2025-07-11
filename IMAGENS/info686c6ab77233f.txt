@@ -1,0 +1,23 @@
+⏰ Você tem até: 07/07/2025 21:52 ( Para Pedir Reembolso )
+
+
+💳 Número: 4929564637987814
+📆 Validade: 12/2026
+🔐 Código de Segurança: 120
+
+🏳 Bandeira: visa
+💠 Nível: b2b virtual
+⚜ Tipo: credit
+🏛 Banco: entropay limited
+🌍 Pais: united kingdom
+
+👤 Dados: 
+
+     - NOME: WESLLEY NEPONUCENO DE PAULA
+     - CPF: 42735031829
+     - Data Nasc: 28/01/1995
+
+FormatoChecker: 4929564637987814|12|2026|120|WESLLEY NEPONUCENO DE PAULA|42735031829|28/01/1995
+
+💸 Valor Pago: R$ 15 
+💰 Saldo Disponivel: R$ 4.00
