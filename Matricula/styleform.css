@@ -262,15 +262,21 @@ input:valid~label {
 }
 
 .topo {
-    display: flex;
-    justify-content: space-between;
-    background-color: #00001b;
-    height: 110px;
-    border: 1px #515151 solid;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00001b;
+  height: 110px;
+  border: 1px #ffffff solid;
+  border-radius: 10px;
 }
 
 #titulo {
-    margin-left: 67px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #links {

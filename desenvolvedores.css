@@ -112,6 +112,7 @@ a:hover {
 
 
 .topo {
+  position: relative;
   display: flex;
   justify-content: space-between;
   background-color: #00001b;
@@ -121,7 +122,11 @@ a:hover {
 }
 
 #titulo {
-  margin-left: 67px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #links {
@@ -195,7 +200,7 @@ li a:hover {
 
 .textomeu {
   flex: 1;
-  font-family: "Quicksand", sans-serif;
+  font-family: "EB Garamond", serif;
   font-size: 16px;
   text-align: justify;
 }

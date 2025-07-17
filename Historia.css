@@ -110,6 +110,7 @@ a:hover {
 }
 
 .topo {
+  position: relative;
   display: flex;
   justify-content: space-between;
   background-color: #00001b;
@@ -119,7 +120,11 @@ a:hover {
 }
 
 #titulo {
-  margin-left: 67px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #links {
@@ -268,7 +273,7 @@ li a:hover {
   opacity: 0;
 
   h1 {
-    font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-family: "Cinzel Decorative", serif;
     text-transform: uppercase;
     color: #1779cf;
     font-size: 1.44rem;
@@ -286,7 +291,7 @@ li a:hover {
   border-bottom: 1px solid #fff;
 
   p {
-    font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "EB Garamond", serif;;
     font-size: 1.728rem;
     line-height: 0;
   }
