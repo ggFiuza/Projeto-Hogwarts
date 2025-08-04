@@ -26,6 +26,12 @@ body {
   color: #ffffff;
 }
 
+hr{
+
+  background-color: #00ff00;
+  color: #00ff00;
+}
+
 
 .comeco {
 
@@ -150,6 +156,11 @@ body {
 
 }
 
+.corpo-imagem:hover {
+
+  transform: translateY(-6px);
+}
+
 .imagem-abcorpo {
 
   display: flex;
@@ -173,6 +184,12 @@ body {
   object-fit: cover;
   object-position: top;
   margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.imagens:hover {
+
+  transform: translateY(-6px);
 }
 
 .container-corpo-geral {
@@ -256,7 +273,7 @@ body {
 
 .coitaner-detalhes-imagens {
 
-  img{
+  img {
     border-radius: 12px;
   }
 
@@ -418,7 +435,15 @@ body {
   }
 }
 
+.config {
 
+  transition: transform 0.3s ease;
+}
+
+.config:hover {
+
+  transform: translateY(-6px);
+}
 
 
 

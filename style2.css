@@ -145,6 +145,11 @@ body {
 
 }
 
+.corpo-imagem:hover{
+
+  transform: translateY(-6px);
+}
+
 .imagem-abcorpo {
 
   display: flex;
@@ -168,6 +173,12 @@ body {
   object-fit: cover;
   object-position: top;
   margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.imagens:hover{
+
+  transform: translateY(-6px);
 }
 
 .container-corpo-geral {
@@ -411,72 +422,15 @@ body {
   }
 }
 
-.container-geral-poema {
+.config {
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
+  transition: transform 0.3s ease;
 }
 
-.container-textinho {
+.config:hover {
 
-  border: 5px solid #740001;
-  border-radius: 3%;
-  background-color: #740001;
-  color: black;
-  width: 400px;
-
-
+  transform: translateY(-6px);
 }
-
-.textinho-poema {
-
-  font-size: 20px;
-  padding: 20px;
-
-  h1 {
-    font-size: 25px;
-  }
-
-
-}
-
-.container-direita-poema {
-
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  margin-top: 40px;
-
-}
-
-.poema {
-
-  border: 5px solid #740001;
-  border-radius: 3%;
-  background-color: #740001;
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-  width: 400px;
-
-  h1 {
-
-    color: #EEBA30;
-    font-size: 25px;
-  }
-
-  p {
-
-    color: #c4c4c4
-  }
-
-
-}
-
 
 
 

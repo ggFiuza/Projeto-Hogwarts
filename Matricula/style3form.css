@@ -1,113 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=WDXL+Lubrifont+TC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=WDXL+Lubrifont+TC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IM+Fell+English+SC&family=WDXL+Lubrifont+TC&display=swap');
-
-
-h1 {
-    font-family: "Cinzel Decorative", serif;
-  
-  }
-  
-  h3{
-  
-    font-family: "WDXL Lubrifont TC", sans-serif;
-  }
-  
-  p {
-  
-    font-family: "EB Garamond", serif;
-  }
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #00001b;
-    line-height: 1.6;
-    color: #ffffff;
-    margin: 0;
-}
-
-footer {
-  background-color: #00001b;
-  padding-top: 60px;
-  align-items: center;
-  justify-content: center;
-}
-
-#conteudo-footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  border: solid rgb(255, 255, 255) 3px;
-  border-radius: 15px;
-  color: rgb(255, 255, 255);
-    margin: 0 auto;
-  max-width: 1200px;
-  padding: 30px 0;
-  gap: 30px;
-}
-
-.rodapeconteiner {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.logos {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.logos img {
-  width: 29px;
-  height: 29px;
-  transition: transform 0.3s ease;
-}
-
-.logos img:hover {
-  transform: scale(1.2);
-}
-
-a {
-  text-decoration: none;
-  padding-bottom: 10px;
-  color: rgb(255, 255, 255);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.rights {
-  display: flex;
-  text-align: center;
-  color: #ffffff;
-  align-content: center;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-#hoglogo {
-  height: 75px;
-  width: 250px;
-  padding: 10px;
-  margin: auto;
-}
-
-#casas {
-  margin-bottom: 10px;
-}
-
-.rodapeconteiner h3,
-.logos ~ h3 {
-  font-size: 20px; 
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
 .topo {
   position: relative;
   display: flex;
@@ -125,6 +15,7 @@ a:hover {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 #links {
     width: 145px;
     margin: auto 35px;
@@ -187,41 +78,132 @@ li a:hover {
     cursor: pointer;
 }
 
-.alunos {
-    font-weight: bold;
+
+
+
+
+.rodapeconteiner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.logos img {
+  width: 29px;
+  height: 29px;
+  transition: transform 0.3s ease;
+}
+
+.logos img:hover {
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rights {
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#hoglogo {
+  height: 75px;
+  width: 250px;
+  padding: 10px;
+  margin: auto;
+}
+
+#casas {
+  margin-bottom: 10px;
+}
+
+.rodapeconteiner h3,
+.logos~h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.titulop {
     text-align: center;
+    margin-bottom: 32px;
 }
 
-.textomeu {
-    flex: 1;
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
-    text-align: justify;
-}
-
-.fotominha {
-    width: 200px;
-    border-radius: 15px;
-    border: 3px solid white;
-    transition: transform 0.3s ease;
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
-
-}
-
-.devs {
+.borda {
     display: flex;
-    gap: 20px;
-    background-color: #00001b;
-    padding: 20px;
-    border-radius: 10px;
-    border: solid white;
-    margin-top: 30px;
+    flex-direction: column;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    flex-wrap: wrap;
-    transition: transform 0.3s ease;
-    margin-left: 350px;
-    margin-right: 350px;
 }
 
+.grupo-nome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
+.grupo-nome input {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px !important;
+}
+
+.checkbox-groupitem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0 !important;
+}
+
+.tamanhoinput[type="checkbox"],
+.tamanhoinput[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.texto.alinhar.textop {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.borda h1,
+.borda label {
+    margin-bottom: 20px !important;
+}
+
+.borda h1.titulo,
+.borda h1.texto {
+    margin-bottom: 20px;
+    margin-top: 0;
+}

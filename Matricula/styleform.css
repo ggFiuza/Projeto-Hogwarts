@@ -351,7 +351,9 @@ footer {
     bottom: 0;
     width: 100%;
     color: white;
-    text-align: center
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .caixa {
@@ -368,8 +370,6 @@ footer {
     border: solid rgb(255, 255, 255) 3px;
     border-radius: 15px;
     color: rgb(255, 255, 255);
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 .rodapeconteiner {
@@ -398,6 +398,7 @@ a {
     text-align: center;
     color: #ffffff;
     margin: auto 780px;
+    margin-top: 30px;
 }
 
 #hoglogo {
@@ -468,6 +469,7 @@ a {
     text-align: center;
     color: #ffffff;
     margin: auto 780px;
+    margin-top: 30px;
 }
 
 #hoglogo {
