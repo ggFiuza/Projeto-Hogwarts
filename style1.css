@@ -350,7 +350,7 @@ body {
   border: 5px solid #222f5b;
   border-radius: 3%;
   background-color: #222f5b;
-  color: black;
+  color: white;
   font-size: 20px;
   padding: 20px;
   margin-left: 40px;
@@ -635,4 +635,5 @@ a:hover {
   text-transform: uppercase;
 
 }
+
 
