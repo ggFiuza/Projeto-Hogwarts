@@ -253,7 +253,7 @@ li a:hover {
 }
 
 #Miguel {
-  background-color: #092276;
+  background-color: #46505e;
 }
 
 .redes-sociais {
@@ -272,4 +272,5 @@ li a:hover {
 .redes-sociais a img:hover {
   transform: scale(1.2);
   filter: brightness(1.2);
+
 }
